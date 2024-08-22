@@ -1,7 +1,13 @@
 {
-    "features": {
-    "git-lfs": "latest"
-    },
-    "remoteUser": "root",
-    "workspaceFolder": "azdo"
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/microsoft/codespace-features/external-repository:latest": {
+      "cloneUrl": "https://msazure.visualstudio.com/DefaultCollection/Cognitive%20Services/_git/API-OpenAI-Gpt-V",
+      "folder": "/workspaces/API-OpenAI-Gpt-V"
+    }
+  },
+  "workspaceFolder": "/workspaces/API-OpenAI-Gpt-V",
+  "initializeCommand": "mkdir -p ${localWorkspaceFolder}/../API-OpenAI-Gpt-V",
+  "postStartCommand": "external-git clone",
+  "postAttachCommand": "external-git config"     
 }
