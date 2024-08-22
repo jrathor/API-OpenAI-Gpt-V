@@ -6,7 +6,7 @@
       "folder": "/workspaces/gptv"
     }
   },
-  "workspaceFolder": "/workspaces/API-OpenAI-Gpt-V",
+  "workspaceFolder": "/workspaces/gptv",
   "initializeCommand": "mkdir -p ${localWorkspaceFolder}/../gptv",
   "postStartCommand": "external-git clone",
   "postAttachCommand": "external-git config"     
