@@ -4,5 +4,5 @@
     },
     "remoteUser": "root",
     "workspaceFolder": "azdo",
-    "postCreateCommand": "git clone https://msazure.visualstudio.com/DefaultCollection/Cognitive%20Services/_git/API-OpenAI-Gpt-V azdo"
+    "____postCreateCommand": "git clone https://msazure.visualstudio.com/DefaultCollection/Cognitive%20Services/_git/API-OpenAI-Gpt-V azdo"
 }
