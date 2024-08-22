@@ -3,6 +3,5 @@
     "git-lfs": "latest"
     },
     "remoteUser": "root",
-    "workspaceFolder": "azdo",
-    "____postCreateCommand": "git clone https://msazure.visualstudio.com/DefaultCollection/Cognitive%20Services/_git/API-OpenAI-Gpt-V azdo"
+    "workspaceFolder": "azdo"
 }
