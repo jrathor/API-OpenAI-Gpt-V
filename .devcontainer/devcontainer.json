@@ -4,6 +4,13 @@
     "ghcr.io/microsoft/codespace-features/external-repository:latest": {
       "cloneUrl": "https://msazure.visualstudio.com/DefaultCollection/Cognitive%20Services/_git/API-OpenAI-Gpt-V",
       "folder": "/workspaces/gptv"
+    },
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "configureZshAsDefaultShell": true,
+      "installOhMyZsh": true,
+      "installOhMyZshConfig": true,
+      "upgradePackages": true      
     }
   },
   "workspaceFolder": "/workspaces/gptv",
