@@ -11,7 +11,10 @@
       "installOhMyZsh": true,
       "installOhMyZshConfig": true,
       "upgradePackages": true      
-    }
+    },
+    "ghcr.io/devcontainers/features/azure-cli:1": {},
+    "ghcr.io/devcontainers/features/dotnet:2": {},
+    "ghcr.io/devcontainers/features/python:1": {}
   },
   "workspaceFolder": "/workspaces/gptv",
   "initializeCommand": "mkdir -p ${localWorkspaceFolder}/../gptv",
