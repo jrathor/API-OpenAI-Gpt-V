@@ -3,6 +3,7 @@
   "features": {
     "ghcr.io/microsoft/codespace-features/external-repository:latest": {
       "cloneUrl": "https://msazure.visualstudio.com/DefaultCollection/Cognitive%20Services/_git/API-OpenAI-Gpt-V",
+      "branch": "main-ga",
       "folder": "/workspaces/gptv"
     },
     "ghcr.io/devcontainers/features/common-utils:2": {
