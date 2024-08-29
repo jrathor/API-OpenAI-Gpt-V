@@ -11,7 +11,7 @@
       "configureZshAsDefaultShell": true,
       "installOhMyZsh": true,
       "installOhMyZshConfig": true,
-      "upgradePackages": true      
+      "upgradePackages": true
     },
     "ghcr.io/devcontainers/features/azure-cli:1": {},
     "ghcr.io/devcontainers/features/dotnet:2": {},
@@ -19,6 +19,7 @@
   },
   "workspaceFolder": "/workspaces/gptv",
   "initializeCommand": "mkdir -p ${localWorkspaceFolder}/../gptv",
-  "postStartCommand": "external-git clone",
-  "postAttachCommand": "external-git config"     
+  "postCreateCommand": "${localWorkspaceFolder}/../API-OpenAI-Gpt-V/.devcontainer/postStartCommand.sh",
+  // "postStartCommand": "external-git clone",
+  "postAttachCommand": "external-git config"
 }
