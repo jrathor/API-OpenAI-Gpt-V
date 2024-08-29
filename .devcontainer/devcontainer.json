@@ -15,11 +15,12 @@
     },
     "ghcr.io/devcontainers/features/azure-cli:1": {},
     "ghcr.io/devcontainers/features/dotnet:2": {},
-    "ghcr.io/devcontainers/features/python:1": {}
+    // "ghcr.io/devcontainers/features/python:1": {}
   },
   "workspaceFolder": "/workspaces/gptv",
   "initializeCommand": "mkdir -p ${localWorkspaceFolder}/../gptv",
-  "postCreateCommand": "${localWorkspaceFolder}/../API-OpenAI-Gpt-V/.devcontainer/postStartCommand.sh",
+  // "postCreateCommand": "${localWorkspaceFolder}/../API-OpenAI-Gpt-V/.devcontainer/postStartCommand.sh",
+  "postStartCommand": "${localWorkspaceFolder}/../API-OpenAI-Gpt-V/.devcontainer/postStartCommand.sh",
   // "postStartCommand": "external-git clone",
   "postAttachCommand": "external-git config"
 }
