@@ -20,7 +20,7 @@
   "workspaceFolder": "/workspaces/gptv",
   "initializeCommand": "mkdir -p ${localWorkspaceFolder}/../gptv",
   // "postCreateCommand": "${localWorkspaceFolder}/../API-OpenAI-Gpt-V/.devcontainer/postStartCommand.sh",
-  "postStartCommand": "sudo bash ${workspaceFolder}/../API-OpenAI-Gpt-V/.devcontainer/postStartCommand.sh",
+  "postStartCommand": "sudo bash /workspaces/API-OpenAI-Gpt-V/.devcontainer/postStartCommand.sh",
   // "postStartCommand": "external-git clone",
   "postAttachCommand": "external-git config"
 }
